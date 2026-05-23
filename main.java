@@ -11,5 +11,6 @@ class Main{
         toy1.setPrice(toy1.price*0.5);// toy1 = Toy@8
         System.out.println(toy1.price);
         System.out.println("end of program");
+        //sync
     }
 }
