@@ -1,3 +1,11 @@
+/**
+ * Represents a toy item in the inventory
+ * <p>
+ * Each toy has a name, brand, price, quality in stock, 
+ * and a size classufucation.
+ * </p>
+ * 
+ */
 public class Toy { 
     String name;
     String brand;
@@ -17,6 +25,7 @@ public class Toy {
         toy1.quantity = 12;
         toy1.setPrice(toy1.price*0.5);
         System.out.println(toy1.price);
+        System.out.println("end of program");
 
     }
 
