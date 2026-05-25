@@ -10,11 +10,6 @@ public class ObjectLifeCycleLesson {
          h3.family = "Beceril's"
          System.out.println(h1.block);
          System.out.println("endofprogram");
-
-
       }
-
-
-
 
 }
