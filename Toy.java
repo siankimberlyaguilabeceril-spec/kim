@@ -1,3 +1,4 @@
+package chapter1;
 /**
  * Represents a toy item in the inventory
  * <p>
