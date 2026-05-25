@@ -18,7 +18,7 @@ public class Toy {
     }
 
     public static void main(String[] args) {
-        Toy toy1 = new Toy()
+        Toy toy1 = new Toy();
         toy1.name = "Rage Pink";
         toy1.brand = "Lab Vuvu";
         toy1.price = 4500;
