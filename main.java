@@ -8,7 +8,7 @@ class Main{
         toy1.brand = "Lab Vuvu";
         toy1.price = 4500;
         toy1.quantity = 12;
-        toy1.setPrice(toy1.price*0.5);// toy1 = Toy@8
+        toy1.setPrice(toy1.price*0.5);
         System.out.println(toy1.price);
         System.out.println("end of program");
         //sync
