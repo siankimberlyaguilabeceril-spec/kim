@@ -2,7 +2,7 @@
  * Represents a toy item in the inventory
  * <p>
  * Each toy has a name, brand, price, quality in stock, 
- * and a size classufucation.
+ * and a size classification.
  * </p>
  * <ul>
  *      <li><b>name</b> - Name of the toy (e.g., "Gundam")</li>
@@ -39,8 +39,13 @@ public class Toy {
      */
     public void setPrice(double price) {
         this.price = price;
-        Fruit4 f4;
     }
+    /** This is a sample
+     * program if 
+     * Toy Class
+     * is run
+     * 
+     */
 
     public static void main(String[] args) {
         Toy toy1 = new Toy();
@@ -54,4 +59,34 @@ public class Toy {
 
     }
 
+}
+class Fruit{
+
+}
+class Fruit2{
+    
+}
+class Fruit3{
+    
+}
+/** Sample Fruit4 */
+class Fruit4{
+    //public static void main(String[] args) ✅
+    // static public  void main(String[] args) ✅
+    // public static void main(String[] marco) ✅
+    //static  void main(String[] args)❌
+    //public  void main(String[] args)❌
+    // void main(String[] args)❌
+    //public static  main(String[] args)❌
+    //public static void main2(String[] args)❌
+    // void public static main2(String[] args)❌
+    // void public static main2(String[] 12marc)❌
+    static public  void main(String[] hello) {
+        System.out.println("🍌");
+    }
+}
+
+class House{
+    //lot number,block number,name,coordinates,
+    //getLot getBlock,
 }
